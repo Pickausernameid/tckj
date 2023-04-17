@@ -1,0 +1,378 @@
+.page {
+    background-color: #f5f8f9;
+}
+
+.header {
+    width: 100%;
+    float: none;
+    background-color: #fff;
+}
+
+.header .top {
+    width: 1200px;
+    height: 100px;
+    margin: 0px auto 0px;
+}
+
+.header .top .logo {
+    margin-top: 30px;
+    width: 105px;
+    height: 30px;
+    float: left;
+}
+
+.header .top .logo img {
+    width: 105px;
+    height: 30px;
+}
+
+.header .top .info {
+    width: 210px;
+    height: 100px;
+    line-height: 100px;
+    float: right;
+}
+
+.header .top .info img {
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.header .top .info .settings {
+    width: 17px;
+    height: 18px;
+    margin-right: 20px;
+}
+
+.header .top .info .bell {
+    width: 18px;
+    height: 18px;
+    margin-right: 20px;
+}
+
+.header .top .info .sign-up {
+    width: 110px;
+    height: 40px;
+}
+
+.header .nav {
+    width: 100%;
+    height: 170px;
+    background-color: #f5f8f9;
+}
+
+.header .nav .nav_w {
+    width: 1200px;
+    height: 170px;
+    margin: 0px auto 0px;
+    display: flex;
+}
+
+.header .nav .nav_w .nav_l {
+    width: 650px;
+}
+
+.header .nav .nav_w .nav_l .nav_title_1 {
+    margin-top: 68px;
+    font-size: 30px;
+    color: #262b2e;
+}
+
+.header .nav .nav_w .nav_l .nav_title_2 {
+    font-size: 15px;
+    margin-top: 8px;
+    color: #262b2e;
+}
+
+.header .nav .nav_w .nav_r {
+    width: 550px;
+    padding-top: 80px;
+}
+
+.header .nav .nav_w .nav_r .nav_bar {
+    width: 550px;
+    height: 40px;
+    position: relative;
+}
+
+.header .nav .nav_w .nav_r .nav_bar ul {}
+
+.header .nav .nav_w .nav_r .nav_bar ul li {
+    position: relative;
+    display: block;
+    float: left;
+    font-size: 13px;
+    line-height: 40px;
+    width: 100px;
+    height: 40px;
+    color: #262b2e;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    z-index: 10;
+}
+
+.header .nav .nav_w .nav_r .nav_bar ul li.animation {
+    /* position: absolute; */
+    height: 100%;
+    background-color: #f92525;
+    z-index: 9;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+.main {
+    width: 1200px;
+    margin: 0px auto 0px;
+}
+
+.main .swiper-info {
+    width: 100%;
+    display: flex;
+}
+
+.main .swiper-info .swiper-bar {
+    width: 560px;
+    height: 288px;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.main .swiper-info .swiper-bar .swiper {
+    width: 539px;
+    height: 267px;
+    /* margin: 0 auto;
+    margin-top: 30px; */
+    margin: 10.5px;
+    overflow: hidden;
+    position: relative;
+}
+
+#swiper_ul>li {
+    width: 100%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+}
+
+#swiper_ul li img {
+    width: 539px;
+    height: 267px;
+    object-fit: cover;
+}
+
+#swiper_ul>.current {
+    display: block;
+}
+
+#swiper_li {
+    position: absolute;
+    left: 50%;
+    bottom: 15px;
+    margin-left: -35px;
+}
+
+#swiper_li>li {
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-right: 8px;
+    float: left;
+    cursor: pointer;
+}
+
+#li>.on {
+    background-color: #f50;
+}
+
+#an {
+    display: none;
+}
+
+#an a {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-family: "宋体";
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+#an a:hover {
+    background-color: rgba(0, 0, 0, .8);
+}
+
+#an .an-a2 {
+    right: 0;
+}
+
+.swiper-info .support-requests {
+    margin-left: 20px;
+    width: 620px;
+    height: 288px;
+    background-color: #fff;
+    border-radius: 2px;
+}
+
+.swiper-info .support-requests .item {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    border-bottom: 1px solid #efeff0;
+    display: flex;
+    align-items: center;
+}
+
+.swiper-info .support-requests .item p {
+    color: #262b2e;
+    font-size: 18px;
+    margin-left: 48px;
+    height: 100%;
+    width: 432px;
+}
+
+.swiper-info .support-requests .item span {
+    width: 92px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    display: block;
+    border: 1px solid #e9e9ea;
+    font-size: 13px;
+    color: #262b2e;
+}
+
+.swiper-info .support-requests .list {
+    margin-top: 20px;
+}
+
+.swiper-info .support-requests .list table {
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 20px;
+}
+
+table,
+td,
+tr,
+th {
+    border-style: none;
+}
+
+.swiper-info .support-requests .list table tr {
+    height: 40px;
+    line-height: 40px;
+}
+
+.swiper-info .support-requests .list table th {
+    font-size: 13px;
+    font-weight: 800;
+    color: #262b2e;
+    text-align: center;
+}
+
+.swiper-info .support-requests .list table td {
+    text-align: center;
+}
+
+.swiper-info .support-requests .list table td .button-status {
+    width: 65px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #5dd054;
+    display: inline-block;
+    font-size: 13px;
+    color: #fff;
+}
+
+.graph {
+    width: 1200px;
+    margin: 20px auto 0px;
+    background-color: #fff;
+    padding-bottom: 20px;
+    height: 500px;
+}
+
+.graph .graph-echarts {
+    width: 96%;
+    margin: 0 auto;
+    height: 500px;
+    padding-top: 32px;
+}
+
+.echarts {
+    width: 1200px;
+    margin: 20px auto 0px;
+    padding-bottom: 20px;
+    height: 380px;
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.echarts .pie-echarts {
+    width: 560px;
+    height: 380px;
+    margin-right: 20px;
+    background-color: #fff;
+    padding-top: 20px;
+}
+
+.echarts .bar-echarts {
+    width: 620px;
+    height: 380px;
+    background-color: #fff;
+    padding-top: 20px
+}
+
+.foot {
+    width: 100%;
+    height: 248px;
+    background: #202124;
+}
+
+.foot .foot-content {
+    width: 1200px;
+    margin: 20px auto 0px;
+    padding-top: 80px;
+    display: flex;
+    overflow: hidden;
+}
+
+.foot .foot-content .foot-logo {
+    width: 180px;
+    margin-top: 8px;
+}
+
+.foot .foot-content .foot-logo img {
+    width: 105px;
+    height: 30px;
+}
+
+.foot .cooperate {
+    width: 1020px;
+}
+
+.foot .cooperate table {
+    border-collapse: collapse;
+    color: #fff;
+    width: 80%;
+}
+
+.foot .cooperate table tr {
+    height: 32px;
+    line-height: 32px;
+}
+
+.foot .cooperate table tr td {
+    margin: 0;
+    padding: 0;
+}
